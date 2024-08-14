@@ -45,9 +45,9 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">
+              <a href="{{ route('sub.index') }}" class="nav-link">
                 <i class="nav-icon bi bi-tags"></i>
-                <p>Category</p>
+                <p>Subject</p>
               </a>
             </li>
           </ul>

@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('position');
             $table->integer('salary')->default(0);
-            $table->unum('status', ['0', '1'])->default('0');
+            $table->enum('status', ['0', '1'])->default('0');
             $table->timestamps();
         });
     }
