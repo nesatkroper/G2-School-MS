@@ -1,3 +1,4 @@
+@section('title', 'Subject');
 <x-layout>
   <div class="container-fluid px-4">
     <h2 class="mt-4">Subject</h2>
@@ -23,7 +24,7 @@
                 {{ session("success") }}
               </div>
               @endif
-              <table class="table table-striped table-bordered">
+              <table id="myTable" class="table table-striped table-bordered">
                 <thead>
                   <tr>
                     <th style="width: 10px">No</th>
