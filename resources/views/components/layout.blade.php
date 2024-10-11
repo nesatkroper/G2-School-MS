@@ -6,6 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="title" content="AdminLTE | Dashboard v2" />
         <meta name="author" content="ColorlibHQ" />
+        <!-- Add these in the <head> section of your layout file -->
+            <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+            
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
