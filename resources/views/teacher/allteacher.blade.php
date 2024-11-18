@@ -47,7 +47,7 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
       <form action="/action_page.php">
-        <table class="table table-bordered table-striped table-hover align-middle">
+        <table id="myTable" class="table table-bordered table-striped table-hover align-middle">
           <thead class="table-dark">
             <tr>
               <th scope="col">#</th>

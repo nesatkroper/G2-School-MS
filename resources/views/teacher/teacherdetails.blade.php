@@ -11,7 +11,7 @@
                         <img src="https://via.placeholder.com/150" alt="Profile Image" class="img-thumbnail">
                     </div>
                     <div class="col-md-9">
-                        <table class="table table-borderless">
+                        <table id="myTable" class="table table-borderless">
                             <tr>
                                 <th>Name:</th>
                                 <td>Andrew Martin</td>

@@ -1,59 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>My Shop</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="AdminLTE | Dashboard v2" />
-        <meta name="author" content="ColorlibHQ" />
-        <!-- Add these in the <head> section of your layout file -->
-            <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('js/app.js') }}"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<link rel="stylesheet" href="{{ asset('css/app.css') }}">
-            
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
-            integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q="
-            crossorigin="anonymous"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.3.0/styles/overlayscrollbars.min.css"
-            integrity="sha256-dSokZseQNT08wYEWiz5iLI8QPlKxG+TswNRD8k35cpg="
-            crossorigin="anonymous"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.min.css"
-            integrity="sha256-Qsx5lrStHZyR9REqhUF8iQt73X06c8LGIUPzpOhwRrI="
-            crossorigin="anonymous"
-        />
-        <link
-            rel="stylesheet"
-            href="{{ asset('adminlte/dist/css/adminlte.css') }}"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
-            integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0="
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="{{ url('css/app.css') }}" />
-    </head>
-=======
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>@yield('title' , 'My Shop')</title>
+    <title>@yield('title', 'WLC MS')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="AdminLTE | Dashboard v2" />
     <meta name="author" content="ColorlibHQ" />
+    <!-- Favicon Logo -->
+    <link rel="icon" href="path/to/logo.png" type="image/png" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
@@ -88,7 +42,6 @@
     />
     <link rel="stylesheet" href="{{ url('css/app.css') }}" />
   </head>
->>>>>>> db1a97545698254768d190e096569e6e36849dc4
 
   <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
     <div class="app-wrapper">
@@ -152,6 +105,7 @@
     <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
     <script>
       let table = new DataTable("#myTable");
+      let table = new DataTable("#tableTeacher");
     </script>
   </body>
 </html>

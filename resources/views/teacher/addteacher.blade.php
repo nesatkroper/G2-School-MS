@@ -20,7 +20,6 @@
                             <input type="text" class="form-control" id="last_name" name="last_name" required>
                         </div>
                     </div>
-
                     <div class="row mb-3">
                         <div class="col-md-6">
                             <label for="gender" class="form-label">Gender*</label>
